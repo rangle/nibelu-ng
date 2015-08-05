@@ -1,5 +1,7 @@
 # nibelu-ng: AngularJS Wrappers for Nibelung
 
+[![Circle CI](https://circleci.com/gh/rangle/nibelu-ng/tree/master.svg?style=svg)](https://circleci.com/gh/rangle/nibelu-ng/tree/master)
+
 Brings the power of [nibelung](https://github.com/rangle/nibelu-ng) to AngularJS.
 
 This library does two things:
