@@ -22,7 +22,7 @@ cache backed by Nibelung, which allows you to specify TTLs, persistence, and oth
 goodies for your `$http` calls.
 
 ```javascript
-.service('yourService', function (nibelung) {
+.service('yourService', function (HttpHoard) {
   var tenSecondCache = new HttpHoard({
     namespace: 'httpCache',
     ttlMilliseconds: 10000 // Cache records will expire 10 seconds after completion.
