@@ -6,7 +6,7 @@ Brings the power of [nibelung](https://github.com/rangle/nibelu-ng) to AngularJS
 
 This library does two things:
 
-1. It exposes nibelung as an Angular module and service.
+* It exposes nibelung as an Angular module and service.
 
 ```javascript
 angular.module('your-module', ['nibelu-ng'])
@@ -17,7 +17,7 @@ angular.module('your-module', ['nibelu-ng'])
   })
 ```
 
-2. It provides an [$http](https://docs.angularjs.org/api/ng/service/$http#!)-compatible
+* It provides an [$http](https://docs.angularjs.org/api/ng/service/$http#!)-compatible
 cache backed by Nibelung, which allows you to specify TTLs, persistence, and other
 goodies for your `$http` calls.
 
