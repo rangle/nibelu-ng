@@ -1,7 +1,7 @@
 {
   "name": "nibelu-ng",
   "main": "nibelu-ng.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/rangle/nibelu-ng",
   "authors": [
     "Seth Davenport <seth@rangle.io>"
