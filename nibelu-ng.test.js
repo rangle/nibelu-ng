@@ -25,7 +25,6 @@ describe('nibelu-ng', function () {
 
   it('saves, loads and removes promises', function () {
     var testPromise = Q.when();
-    console.log('wut', typeof testPromise);
     expect(cache.put('foo2', testPromise)).to.eql(testPromise);
     expect(cache.get('foo2')).to.eql(testPromise);
 
