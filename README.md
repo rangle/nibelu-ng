@@ -40,7 +40,7 @@ goodies for your `$http` calls.
 });
 ```
 
-See the [original library](https://github.com/rangle/nibelu-ng) for all the
+See the [original library](https://github.com/rangle/nibelung) for all the
 config options.
 
 You can get it with the usual suspects:
