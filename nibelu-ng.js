@@ -53,11 +53,11 @@
         };
 
         this.removeAll = function () {
-          cache.clear();
+          cache.clearNamespace();
         };
 
         this.destroy = function () {
-          cache.clear();
+          cache.clearNamespace();
         };
 
         this.info = function () {
