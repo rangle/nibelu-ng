@@ -1,7 +1,7 @@
 {
   "name": "nibelu-ng",
   "version": "0.0.2",
-  "description": "'AngularJS Wrappers for Nibelung'",
+  "description": "AngularJS Wrappers for Nibelung",
   "main": "nibelu-ng.js",
   "scripts": {
     "test": "karma start"
