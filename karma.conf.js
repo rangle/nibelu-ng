@@ -17,6 +17,15 @@ module.exports = function(config) {
       'nibelu-ng.test.js',
     ],
 
+    plugins: [
+      'karma-chrome-launcher',
+      'karma-coverage',
+      'karma-mocha',
+      'karma-chai',
+      'karma-sinon',
+      'karma-threshold-reporter',
+    ],
+
     exclude: [],
     preprocessors: {},
     port: 9876,
@@ -25,7 +34,7 @@ module.exports = function(config) {
     autoWatch: true,
     singleRun: true,
 
-    browsers: ['PhantomJS'],//, 'Chrome', 'Firefox'],
+    browsers: ['Chrome'],
     reporters: ['progress', 'coverage','threshold'],
     preprocessors: {
       'nibelu-ng.js': 'coverage'
